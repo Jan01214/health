@@ -1,0 +1,10 @@
+@media  screen (max-width: 1100px) {
+    .menu{
+        display: none;
+    }
+}
+@media  screen (max-width: 1200px) {
+    .serv__list{
+        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
+    }
+}
