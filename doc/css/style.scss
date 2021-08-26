@@ -1250,69 +1250,28 @@ $clr-blue: rgba(24, 78, 97, 1);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .test {
+    margin: 100px 0;
 
     // .test__inner
 
     &__inner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        row-gap: 60px;
-        
     }
 
     // .test__title
 
     &__title {
-        
+        margin-bottom: 60px;
     }
 
-    // .test__container
+    // .test__list
 
-    &__container {
+    &__list {
     }
 
-    // .test__wrap
+    // .test__wrapper
 
-    &__wrap {
+    &__wrapper {    
     }
 
     // .test__slide
@@ -1320,45 +1279,46 @@ $clr-blue: rgba(24, 78, 97, 1);
     &__slide {
         display: flex;
         flex-direction: column;
-        align-items: center;
         row-gap: 20px;
-        width: 360px;
-        height: 230px;
+        padding: 43px;
+        transition: .5s;
+
+        &:hover{
+            border: 1px solid #000;
+        }
     }
 
-    // .test__slide-text
+    // .test__slide-coment
 
-    &__slide-text {
+    &__slide-coment {
         font-style: italic;
         font-weight: 500;
         font-size: 14px;
         line-height: 160%;
         /* or 22px */
-
-
+        
+        
         color: #010B19;
+        
     }
 
-    // .test__slide-content
+    // .test__slide-man
 
-    &__slide-content {
+    &__slide-man {
         display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
+        column-gap: 25px;
     }
 
-    // .test__slide-img
+    // .test__slide-avatar
 
-    &__slide-img {
+    &__slide-avatar {
     }
 
-    // .test__slide-info
+    //.test__slide-info
 
-    &__slide-info {
+    &__slide-info{
         display: flex;
         flex-direction: column;
-        row-gap: 5px;
     }
 
     // .test__slide-name
@@ -1368,10 +1328,10 @@ $clr-blue: rgba(24, 78, 97, 1);
         font-size: 22px;
         line-height: 150%;
         /* identical to box height, or 33px */
-
-
+        
+        
         color: #010B19;
-
+        
     }
 
     // .test__slide-prof
@@ -1381,33 +1341,21 @@ $clr-blue: rgba(24, 78, 97, 1);
         font-size: 14px;
         line-height: 150%;
         /* identical to box height, or 21px */
-
-
+        
+        
         color: #010B19;
+        
+        opacity: 0.7;
     }
 
     // .test__page
 
     &__page {
     }
-
-    // .test__btn-prev
-
-    &__btn-prev {
-    }
-
-    // .test__brn-next
-
-    &__brn-next {
-    }
-
-    // .test__scroll
-
-    &__scroll {
-    }
 }
-
-.swiper-container {
+.container {
+}
+.swiper {
 }
 .swiper-wrapper {
 }
@@ -1421,6 +1369,38 @@ $clr-blue: rgba(24, 78, 97, 1);
 }
 .swiper-scrollbar {
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .proof {
